@@ -1,0 +1,7 @@
+# Minimal project for local dev with uv. No [build-system] on purpose, so uv just
+# installs the dependencies instead of trying to build a package.
+[project]
+name = "custom-mcp"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = ["fastmcp", "httpx"]
